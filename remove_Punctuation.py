@@ -8,4 +8,4 @@ words = text.split()
 import string
 table = str.maketrans('', '', string.punctuation)
 stripped = [w.translate(table) for w in words]
-print(stripped[:1000000000000000000000])
+print(stripped[:])

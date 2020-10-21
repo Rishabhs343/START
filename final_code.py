@@ -123,15 +123,15 @@ def analyze():
     Slist1.insert(END,nut)
    
     print("\n\nPositive tweets:")
-    for tweet in ptweets[::1]:
+    for tweet in ptweets[:]:
         print(tweet['text'])
  
     print("\n\nNegative tweets:")
-    for tweet in ntweets[::1]:
+    for tweet in ntweets[:]:
         print(tweet['text'])
         
     print("\n\nNeutral tweets:")
-    for tweet in nutweets[::1]:
+    for tweet in nutweets[:]:
         print(tweet['text'])
        
        
